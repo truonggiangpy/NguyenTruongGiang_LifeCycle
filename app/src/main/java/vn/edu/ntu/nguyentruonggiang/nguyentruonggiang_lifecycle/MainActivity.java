@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d("LifeCycle", "onCreate");
 
+
         Toast.makeText(getApplicationContext(), "onCreate", Toast.LENGTH_SHORT).show();
     }
 
